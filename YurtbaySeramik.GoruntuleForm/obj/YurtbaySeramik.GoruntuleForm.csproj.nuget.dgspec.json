@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\YurtbaySeramik.GoruntuleForm.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\YurtbaySeramik.GoruntuleForm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\YurtbaySeramik.GoruntuleForm.csproj",
+        "projectName": "YurtbaySeramik.GoruntuleForm",
+        "projectPath": "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\YurtbaySeramik.GoruntuleForm.csproj",
+        "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alican\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
