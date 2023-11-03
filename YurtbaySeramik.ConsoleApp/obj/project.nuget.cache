@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "cJXXkUxvjM/lewz91UmpPaDrqx3ij+He/Q/n9iR/DbUNS6Fq/vACimmnrIlvJYNEeEHQzXQ/oXVfsknnXjoXxg==",
+  "dgSpecHash": "/mERk3w+o5LJHVg34R7zpXwEt9uGmchEVbwN2nfhnO1LlHIgn5QEcMi3U/Y5+gA40acbqQZb1t/Ha1HxF2D8IQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.ConsoleApp\\YurtbaySeramik.ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alican\\.nuget\\packages\\datasqlclient\\1.0.1\\datasqlclient.1.0.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\nlog\\5.2.5\\nlog.5.2.5.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

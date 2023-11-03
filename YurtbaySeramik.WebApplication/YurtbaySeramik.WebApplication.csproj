@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44382</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -113,6 +113,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YurtbaySeramik.Core\YurtbaySeramik.Core.csproj">
+      <Project>{54b7f7a9-fa2e-4e70-b57c-3d80c4f11e35}</Project>
+      <Name>YurtbaySeramik.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YurtbaySeramik.Entities\YurtbaySeramik.Entities.csproj">
+      <Project>{24f60840-551d-4639-b7cf-f706be4564b9}</Project>
+      <Name>YurtbaySeramik.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -128,7 +138,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52792</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52792/</IISUrl>
+          <IISUrl>https://localhost:44382/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

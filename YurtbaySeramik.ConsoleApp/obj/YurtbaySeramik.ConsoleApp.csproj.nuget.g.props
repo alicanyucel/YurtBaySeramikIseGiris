@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Alican\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNLog_Config Condition=" '$(PkgNLog_Config)' == '' ">C:\Users\Alican\.nuget\packages\nlog.config\4.7.15</PkgNLog_Config>
+  </PropertyGroup>
 </Project>

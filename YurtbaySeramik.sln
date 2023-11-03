@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.Core", "YurtbaySeramik.Core\YurtbaySeramik.Core.csproj", "{54B7F7A9-FA2E-4E70-B57C-3D80C4F11E35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.Entities", "YurtbaySeramik.Entities\YurtbaySeramik.Entities.csproj", "{24F60840-551D-4639-B7CF-F706BE4564B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.ConsoleApp", "YurtbaySeramik.ConsoleApp\YurtbaySeramik.ConsoleApp.csproj", "{C80C07F5-B410-4403-8BAC-B55884BC27D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.GoruntuleForm", "YurtbaySeramik.GoruntuleForm\YurtbaySeramik.GoruntuleForm.csproj", "{EEE52D23-FAAE-47E9-9917-67B228CA71B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.WindowsService", "YurtbaySeramik.WindowsService\YurtbaySeramik.WindowsService.csproj", "{92A8CA2C-6CDA-4DF2-91E9-26244A0A92C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtbaySeramik.WebApplication", "YurtbaySeramik.WebApplication\YurtbaySeramik.WebApplication.csproj", "{09CD50E1-BE98-4B07-9A0E-250D2F23CC54}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B7F7A9-FA2E-4E70-B57C-3D80C4F11E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B7F7A9-FA2E-4E70-B57C-3D80C4F11E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B7F7A9-FA2E-4E70-B57C-3D80C4F11E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B7F7A9-FA2E-4E70-B57C-3D80C4F11E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F60840-551D-4639-B7CF-F706BE4564B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F60840-551D-4639-B7CF-F706BE4564B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F60840-551D-4639-B7CF-F706BE4564B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F60840-551D-4639-B7CF-F706BE4564B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80C07F5-B410-4403-8BAC-B55884BC27D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80C07F5-B410-4403-8BAC-B55884BC27D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80C07F5-B410-4403-8BAC-B55884BC27D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80C07F5-B410-4403-8BAC-B55884BC27D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE52D23-FAAE-47E9-9917-67B228CA71B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE52D23-FAAE-47E9-9917-67B228CA71B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE52D23-FAAE-47E9-9917-67B228CA71B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE52D23-FAAE-47E9-9917-67B228CA71B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A8CA2C-6CDA-4DF2-91E9-26244A0A92C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A8CA2C-6CDA-4DF2-91E9-26244A0A92C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A8CA2C-6CDA-4DF2-91E9-26244A0A92C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A8CA2C-6CDA-4DF2-91E9-26244A0A92C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CD50E1-BE98-4B07-9A0E-250D2F23CC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CD50E1-BE98-4B07-9A0E-250D2F23CC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CD50E1-BE98-4B07-9A0E-250D2F23CC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CD50E1-BE98-4B07-9A0E-250D2F23CC54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

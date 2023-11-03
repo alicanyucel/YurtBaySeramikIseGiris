@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YurtbaySeramik.Core\YurtbaySeramik.Core.csproj" />
+    <ProjectReference Include="..\YurtbaySeramik.Entities\YurtbaySeramik.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
