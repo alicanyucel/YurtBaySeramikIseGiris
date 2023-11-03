@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FakeData" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\YurtbaySeramik.Core\YurtbaySeramik.Core.csproj" />
     <ProjectReference Include="..\YurtbaySeramik.Entities\YurtbaySeramik.Entities.csproj" />
   </ItemGroup>

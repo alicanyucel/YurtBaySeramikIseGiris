@@ -7,7 +7,7 @@ using YurtbaySeramik.Entities;
 
 namespace YurtbaySeramik.Core.Repository
 {
-    public class PersonelRepository : globalIslemler,IPersonelRepository
+    public class PersonelRepository : globalIslemler,IPersonelRepository,IDisposable
     {
         SqlCommand cmd;
         SqlDataReader reader;
@@ -17,6 +17,12 @@ namespace YurtbaySeramik.Core.Repository
         {
             Dal = new DataAccessLayer();
         }
+
+        public void Dispose()
+        {
+           GC.SuppressFinalize(this);
+        }
+
         public Personel GetirId(int ID)
         {
             Personel personel = new Personel();
@@ -39,12 +45,12 @@ namespace YurtbaySeramik.Core.Repository
                       Yas = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                       Unvan = reader.IsDBNull(4) ? string.Empty : reader.GetString(4),
                       Birim = reader.IsDBNull(5) ? string.Empty : reader.GetString(5),
-                      IseBaslamaTarihi = reader.IsDBNull(6) ? DateTime.MinValue : reader.GetDateTime(6),
-
+                      IseBaslamaTarihi = reader.IsDBNull(6) ? DateTime.MinValue : reader.GetDateTime(6)
                   } ;
                 }
                 reader.Close();
                 Dal.con.Close();
+                 
 
             });
             return personel;
@@ -57,12 +63,12 @@ namespace YurtbaySeramik.Core.Repository
             {
                 cmd = new SqlCommand("KayitEkle");
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add("@Ad",SqlDbType.NVarChar).Value=p.Ad;
-                cmd.Parameters.Add("@Soyad", SqlDbType.NVarChar).Value = p.Soyad;
-                cmd.Parameters.Add("Yas", SqlDbType.Int).Value = p.Yas;
-                cmd.Parameters.Add("Birim", SqlDbType.NVarChar).Value = p.Birim;
-                cmd.Parameters.Add("Unvan", SqlDbType.NVarChar).Value = p.Unvan;
-                cmd.Parameters.Add("IseBaslamaTarihi", SqlDbType.DateTime).Value = p.IseBaslamaTarihi;
+                cmd.Parameters.Add("@ADI",SqlDbType.NVarChar).Value=p.Ad;
+                cmd.Parameters.Add("@SOYADI", SqlDbType.NVarChar).Value = p.Soyad;
+                cmd.Parameters.Add("@YASI", SqlDbType.Int).Value = p.Yas;
+                cmd.Parameters.Add("@BIRIM", SqlDbType.NVarChar).Value = p.Birim;
+                cmd.Parameters.Add("@UNVAN", SqlDbType.NVarChar).Value = p.Unvan;
+                cmd.Parameters.Add("@ISE_BASLANGIC_TARIHI", SqlDbType.DateTime).Value = p.IseBaslamaTarihi;
                 ReturnValue=Dal.Calistir(cmd);
             });
             return ReturnValue;
@@ -89,12 +95,10 @@ namespace YurtbaySeramik.Core.Repository
                         Unvan = reader.IsDBNull(4) ? string.Empty : reader.GetString(4),
                         Birim = reader.IsDBNull(5) ? string.Empty : reader.GetString(5),
                         IseBaslamaTarihi = reader.IsDBNull(6) ? DateTime.MinValue : reader.GetDateTime(6),
-
                     });
                 }
                 reader.Close();
                 Dal.con.Close();
-
             });
             return personelListe;
         }

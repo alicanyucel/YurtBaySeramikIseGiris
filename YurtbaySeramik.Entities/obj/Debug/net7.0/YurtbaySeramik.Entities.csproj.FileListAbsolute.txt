@@ -1,0 +1,12 @@
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\bin\Debug\net7.0\YurtbaySeramik.Entities.deps.json
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\bin\Debug\net7.0\YurtbaySeramik.Entities.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\bin\Debug\net7.0\YurtbaySeramik.Entities.pdb
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.csproj.AssemblyReference.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.AssemblyInfoInputs.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.AssemblyInfo.cs
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\refint\YurtbaySeramik.Entities.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\YurtbaySeramik.Entities.pdb
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Entities\obj\Debug\net7.0\ref\YurtbaySeramik.Entities.dll

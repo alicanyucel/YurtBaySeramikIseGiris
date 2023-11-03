@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eSOuNbioBrnuzoQzI6a2qt/jnYgzFvdZLGIGsP3HBknjJcE13lls2wJt2jT6gnL4Scg/eesEHS+LbCcjpGH7mg==",
+  "dgSpecHash": "GhEbnIMwlxH+8x/d4v+i+ilCsKlBzz2bRP+PC0iRkpCQRVZeTRQ+uit2eIPie8fVIhUMbrD+n8JvkMUDMEeAGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alican\\source\\repos\\YurtbaySeramik\\YurtbaySeramik.GoruntuleForm\\YurtbaySeramik.GoruntuleForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\datasqlclient\\1.0.1\\datasqlclient.1.0.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\fakedata\\1.0.0\\fakedata.1.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
@@ -19,5 +20,16 @@
     "C:\\Users\\Alican\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FakeData 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FakeData",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
 }

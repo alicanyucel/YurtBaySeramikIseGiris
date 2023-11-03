@@ -9,9 +9,9 @@ namespace YurtbaySeramik.Core.Database
         SqlCommand cmd;
         SqlDataReader reader;
         int ReturnValue;
-        public OataAccessLayer()
+        public DataAccessLayer()
         {
-            con = new SqlConnection("data source=DESKTOP-ROTCU0Q,inital catalog=;Deneme;Integrated Security = True;TrustServerCertificate=True");
+            con = new SqlConnection("data source=DESKTOP-ROTCU0Q,inital catalog=Deneme;Integrated Security = True;TrustServerCertificate=True");
 
         }
         public int Calistir(SqlCommand cmd)

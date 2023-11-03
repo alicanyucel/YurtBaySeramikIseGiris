@@ -1,0 +1,16 @@
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\NLog.config
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\YurtbaySeramik.Core.deps.json
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\YurtbaySeramik.Core.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\YurtbaySeramik.Core.pdb
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\YurtbaySeramik.Entities.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\bin\Debug\net7.0\YurtbaySeramik.Entities.pdb
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.csproj.AssemblyReference.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.AssemblyInfoInputs.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.AssemblyInfo.cs
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.csproj.CopyComplete
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\refint\YurtbaySeramik.Core.dll
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\YurtbaySeramik.Core.pdb
+C:\Users\Alican\source\repos\YurtbaySeramik\YurtbaySeramik.Core\obj\Debug\net7.0\ref\YurtbaySeramik.Core.dll
