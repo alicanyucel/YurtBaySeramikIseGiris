@@ -1,0 +1,38 @@
+﻿﻿@using YurtbaySeramik.Entities.Personel
+﻿@model List<Personel>
+    <link href="~/lib/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Yaşı</th>
+                    <th>Unvan</th>
+                    <th>Birim</th>
+                    <th>İşe Başlangıç Tarihi</th>
+                </tr>
+                @foreach (var item in Model)
+                  {
+                <tr>
+                <td>@item.Id</td>
+                <td>@item.Adi</td>
+                <td>@item.Soyadi</td>
+                <td>@item.Yasi</td>
+                <td>@item.Unvan</td>
+                <td>@item.Birim</td>
+                <td>@item.Birim</td>
+                <td>@item.IseBaslangicTarihi</td>
+                </tr>
+                }
+            </table>
+        </div>
+    </body>
+</html>

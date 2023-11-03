@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Timers;
+﻿using System.Timers;
 using System.ServiceProcess;
-
-
+using System.Collections.Generic;
 namespace YurtbaySeramik.WindowsService
 {
     public partial class Service1 : ServiceBase
@@ -15,15 +9,34 @@ namespace YurtbaySeramik.WindowsService
         public Service1()
         {
             InitializeComponent();
-            t = new Timer(60000); // 10 saniyede bir kez
+            t = new Timer(6000); // 6 saniyede bir kez çalışsın
             t.Elapsed += T_Elapsed;
         }
 
         private void T_Elapsed(object sender, ElapsedEventArgs e)
         {
-           
+            using (PersonelRepository personelrepo = new PersonelRepository())
+            {
+                List<Personel> personelListele = personelrepo.TumPersonel();
+                for (int i = 0; i < personelListele.Count; i++)
+                {
+                    if (string.IsNullOrEmpty(personelListele[i].Ad))
+                    {
+                       
+                        // Eposta Gönderme işlemi 
+
+                        string MailIcerik = string.Empty;
+                        MailIcerik += "<div>";
+                        MailIcerik += "<p>Merhaba</p>";
+                        MailIcerik += "<p> " + personelListele[i].Ad + " " + personelListele[i].Soyad + "</p>";
+                        MailIcerik += "<di>";
+                        EpostaIslemleri.emailGonder(personelListele[i].Ad + " " + personelListele[i].Soyad, personelListele[i].EmailAdres, "Merhaba", MailIcerik);
+
+                    }
+                }
+            }
         }
-        protected override void OnContinue(string[] args)
+    protected override void OnContinue()
         {
             t.Start();
         }
@@ -33,6 +46,14 @@ namespace YurtbaySeramik.WindowsService
         }
 
         protected override void OnStop()
+        {
+            t.Stop();
+        }
+        protected override void OnShutdown()
+        {
+            t.Stop();
+        }
+        protected override void OnPause()
         {
             t.Stop();
         }

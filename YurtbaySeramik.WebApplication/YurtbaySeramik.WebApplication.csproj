@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +122,10 @@
     <ProjectReference Include="..\YurtbaySeramik.Entities\YurtbaySeramik.Entities.csproj">
       <Project>{24f60840-551d-4639-b7cf-f706be4564b9}</Project>
       <Name>YurtbaySeramik.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YurtbaySeramik.WindowsService\YurtbaySeramik.WindowsService.csproj">
+      <Project>{92a8ca2c-6cda-4df2-91e9-26244a0a92c2}</Project>
+      <Name>YurtbaySeramik.WindowsService</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
