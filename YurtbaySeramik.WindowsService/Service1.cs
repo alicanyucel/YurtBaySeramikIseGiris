@@ -29,7 +29,7 @@ namespace YurtbaySeramik.WindowsService
                         MailIcerik += "<div>";
                         MailIcerik += "<p>Merhaba</p>";
                         MailIcerik += "<p> " + personelListele[i].Ad + " " + personelListele[i].Soyad + "</p>";
-                        MailIcerik += "<di>";
+                        MailIcerik += "</div>";
                         EpostaIslemleri.emailGonder(personelListele[i].Ad + " " + personelListele[i].Soyad, personelListele[i].EmailAdres, "Merhaba", MailIcerik);
 
                     }
